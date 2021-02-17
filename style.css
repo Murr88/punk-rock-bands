@@ -1,0 +1,89 @@
+* CSS files add styling rules to your content */
+
+body, caption {
+  font-family:"Rock Salt", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+caption {
+  font-family:"Rock Salt";
+  padding:5px;
+  caption-side:bottom;
+  text-align: right;
+  font-size: 12px;
+}
+
+table, th, tfoot {
+  padding: 5px;
+  border: 2px solid #800080;
+}
+
+table {
+  margin-top:5%;
+  margin-right:5%;
+  margin-left:5%;
+}
+
+td {
+  font-family:helvetica;
+  text-align: center;
+  font-size:12px;
+  padding:10px;
+}
+
+.collapse {
+  border-collapse: collapse;
+}
+
+.foot1 {
+  font-family: "Rock Salt";
+  text-align:right;
+  font-size:12px;
+  padding:10px;
+  color:white;
+  border: 2px solid #800080;
+}
+
+.foot3 {
+  font-family: "rock salt";
+  text-align:left;
+  font-size:12px;
+  padding:10px;
+  color:white;
+  border: 2px solid #800080;
+}
+
+thead {
+  font-family: "Rock Salt";
+  font-size: 12px;
+  color: white;
+}
+
+tfoot {
+  font-family: "Rock Salt";
+  text-size-adjust: "auto";
+  text-align: right;
+  background-color: white;
+}  
+
+tr:nth-child(even) {
+  background-color: #e495e4;
+}
+tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+table {
+  table-layout:fixed;
+  border: 1px solid;
+  text-align: center;
+}
+
+.unwonky {
+  max-width: 1000px;
+  margin:auto;
+  
+}
+
+.bgclass {
+   background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('assets/leopardskin.jpg');
+}
